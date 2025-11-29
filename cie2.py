@@ -7,11 +7,11 @@ if len(sys.argv) == 6:
     balance = sys.argv[4]
     total_fees = int(sys.argv[5])
 else:
-    name = "Raghava"
-    branch = "BCA"
-    fees_paid = "87000"
-    balance = "NULL"
-    total_fees = "87000"
+    name = ""
+    branch = ""
+    fees_paid = ""
+    balance = ""
+    total_fees = ""
 
 if fees_paid == total_fees:
     print("Your fees is paid completely")
