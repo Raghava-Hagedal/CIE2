@@ -1,4 +1,4 @@
-import sys.argv
+import sys
 if len(sys.argv) == 6:
     script_to_item = sys.argv[0]
     name = sys.argv[1]
